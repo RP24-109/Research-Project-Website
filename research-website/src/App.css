@@ -107,6 +107,24 @@ footer {
 footer p {
   margin: 0;
 }
+
+/* Remove default link styles */
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Match the link color to surrounding text */
+}
+
+/* Change styles on hover */
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #6159ba; /* Change color on hover to indicate it's a link */
+}
+
+/* Make sure the links don't get affected by the list item styling */
+ul li a {
+  color: inherit; /* Ensure links within list items also inherit the color */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .header h1 {

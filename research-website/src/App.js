@@ -263,11 +263,77 @@ function About() {
       <h2>About Us</h2>
       <p>Meet the team behind this project:</p>
       <ul>
-        <li>IT21023446 - Sanjeevan M.C.M.A (Project Group Leader)</li>
-        <li>IT21037306 - Fahmi M.F.A</li>
-        <li>IT20275006 - Lakpriya K.H.A.V</li>
-        <li>IT21084522 - Dissanayake A.L</li>
+        <li>
+          <strong>Sanjeevan M.C.M.A</strong> (Project Group Leader)
+          <br />
+          <span style={{ fontSize: "small", fontStyle: "Normal" }}>
+            ✉️{" "}
+            <a href="mailto:it21023446@my.sliit.lk">it21023446@my.sliit.lk</a>
+          </span>
+        </li>
+        <li>
+          <strong>Fahmi M.F.A</strong>
+          <br />
+          <span style={{ fontSize: "small", fontStyle: "Normal" }}>
+            ✉️{" "}
+            <a href="mailto:it21037306@my.sliit.lk">it21037306@my.sliit.lk</a>
+          </span>
+        </li>
+        <li>
+          <strong>Lakpriya K.H.A.V</strong>
+          <br />
+          <span style={{ fontSize: "small", fontStyle: "Normal" }}>
+            ✉️{" "}
+            <a href="mailto:it20275006@my.sliit.lk">it20275006@my.sliit.lk</a>
+          </span>
+        </li>
+        <li>
+          <strong>Dissanayake A.L</strong>
+          <br />
+          <span style={{ fontSize: "small", fontStyle: "Normal" }}>
+            ✉️{" "}
+            <a href="mailto:it21084522@my.sliit.lk">it21084522@my.sliit.lk</a>
+          </span>
+        </li>
       </ul>
+
+      <h3>Supervisor</h3>
+      <p>
+        <strong>Ms. Samanthi E.R Siriwardana</strong> (Lecturer)
+        <br />
+        <span style={{ fontSize: "small", fontStyle: "italic" }}>
+          Faculty of Computing
+          <br />
+          Department of Software Engineering
+          <br />
+          Sri Lanka Institute of Information Technology
+          <br />
+          Malabe, Sri Lanka
+          <br />
+        </span>
+        <span style={{ fontSize: "small", fontStyle: "Normal" }}>
+          ✉️ <a href="mailto:samanthi.s@sliit.lk">samanthi.s@sliit.lk</a>
+        </span>
+      </p>
+
+      <h3>Co-Supervisor</h3>
+      <p>
+        <strong>Ms. Mihiri Samaraweera</strong> (Lecturer)
+        <br />
+        <span style={{ fontSize: "small", fontStyle: "italic" }}>
+          Faculty of Computing
+          <br />
+          Department of Software Engineering
+          <br />
+          Sri Lanka Institute of Information Technology
+          <br />
+          Malabe, Sri Lanka
+          <br />
+        </span>
+        <span style={{ fontSize: "small", fontStyle: "Normal" }}>
+          ✉️ <a href="mailto:samanthi.s@sliit.lk">mihiri.s@sliit.lk</a>
+        </span>
+      </p>
     </section>
   );
 }
@@ -276,9 +342,13 @@ function Contact() {
   return (
     <section id="contact">
       <h2>Contact Us</h2>
-      <p>If you have any questions, feel free to reach out:</p>
+      <h3>If you have any questions, feel free to reach out:</h3>
+      <br />
       <ul>
-        <li>Email 💌: it21023446@my.sliit.lk</li>
+        <li>
+          Email ✉️:{" "}
+          <a href="mailto:it21023446@my.sliit.lk">it21023446@my.sliit.lk</a>
+        </li>
         <li>Phone📱: +94 76 280 2065</li>
       </ul>
     </section>
