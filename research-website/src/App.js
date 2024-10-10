@@ -278,8 +278,8 @@ function Contact() {
       <h2>Contact Us</h2>
       <p>If you have any questions, feel free to reach out:</p>
       <ul>
-        <li>Email: it21023446@my.sliit.lk</li>
-        <li>Phone: +94 76 280 2065</li>
+        <li>Email 💌: it21023446@my.sliit.lk</li>
+        <li>Phone📱: +94 76 280 2065</li>
       </ul>
     </section>
   );
