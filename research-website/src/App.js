@@ -136,7 +136,7 @@ function Documents() {
       <ul>
         <li>
           <a
-            href="/reports/project-proposal/IT21023446 - Sanjeevan M.C.M.A.pdf"
+            href="https://drive.google.com/file/d/1VsCo8RuPW-Z01K_yoAWK9v-gePDhRZAA/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -145,7 +145,7 @@ function Documents() {
         </li>
         <li>
           <a
-            href="/reports/project-proposal/IT21037306 - Fahmi M.F.A.pdf"
+            href="https://drive.google.com/file/d/16KRB-k4WKtP1IAggkxA_rahWxa4i_RbD/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -154,7 +154,7 @@ function Documents() {
         </li>
         <li>
           <a
-            href="/reports/project-proposal/IT20275006 - Lakpriya K.H.A.V.pdf"
+            href="https://drive.google.com/file/d/1N8TshGobmErP4ZADwWVsWxM34hqZk-1r/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -167,7 +167,7 @@ function Documents() {
       <ul>
         <li>
           <a
-            href="/reports/final-report/group-report/R24-109-Group Final Report.pdf"
+            href="https://drive.google.com/file/d/1XDQ8qPvh3xkUlFUGd2Rm5jo17BDqIKAl/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -180,7 +180,7 @@ function Documents() {
       <ul>
         <li>
           <a
-            href="/reports/final-report/individual-reports/IT21023446 - Sanjeevan M.C.M.A.pdf"
+            href="https://drive.google.com/file/d/1nlDy4W_6aQc3k6nGqPRaYpEbww4CVeKk/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -189,7 +189,7 @@ function Documents() {
         </li>
         <li>
           <a
-            href="/reports/final-report/individual-reports/IT21037306 - Fahmi M.F.A.pdf"
+            href="https://drive.google.com/file/d/1wC41S1qThtI148EUXrrkrd4B6bg_NMZ4/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -198,7 +198,7 @@ function Documents() {
         </li>
         <li>
           <a
-            href="/reports/final-report/individual-reports/IT21084522 - Dissanayake A.L.pdf"
+            href="https://drive.google.com/file/d/1uYzwhFR-Ri7GIBEstKdBv7ZNwdqtdZZR/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -207,7 +207,7 @@ function Documents() {
         </li>
         <li>
           <a
-            href="/reports/final-report/individual-reports/IT20275006 - Lakpriya K.H.A.V.pdf"
+            href="https://drive.google.com/file/d/1r8QR77hw7LqhyUwCNBIq298xFVbwJ3Vk/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -227,7 +227,7 @@ function Slides() {
       <ul>
         <li>
           <a
-            href="/presentations/R24-109-Proposal.pptx"
+            href="https://docs.google.com/presentation/d/15RbY2dy85O7Zpk-4NiVIIbVu1aaEHNX4/edit?usp=drive_link&ouid=103272867948592942019&rtpof=true&sd=true"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -236,7 +236,7 @@ function Slides() {
         </li>
         <li>
           <a
-            href="/presentations/R24-109-PP1.pptx"
+            href="https://docs.google.com/presentation/d/16PNWvIMrvyRHpZJEheZcOjkeiCEaN3dc/edit?usp=drive_link&ouid=103272867948592942019&rtpof=true&sd=true"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -245,7 +245,7 @@ function Slides() {
         </li>
         <li>
           <a
-            href="/presentations/R24-109-PP2.pptx"
+            href="https://docs.google.com/presentation/d/1sRqw8nU35bHgnrOyvDD3tiL_lm6t7c04/edit?usp=drive_link&ouid=103272867948592942019&rtpof=true&sd=true"
             target="_blank"
             rel="noopener noreferrer"
           >
