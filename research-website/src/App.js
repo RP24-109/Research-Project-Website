@@ -8,6 +8,7 @@ function App() {
       <Header />
       <Navigation />
       <Home />
+      <Domain />
       <Milestones />
       <Documents />
       <Slides />
@@ -34,6 +35,11 @@ function Navigation() {
         <li>
           <a href="#home">
             <i className="fas fa-home"></i> Home
+          </a>
+        </li>
+        <li>
+          <a href="#domain">
+            <i className="fas fa-globe"></i> Domain
           </a>
         </li>
         <li>
@@ -107,6 +113,71 @@ function Home() {
         We invite you to explore our project further and stay tuned for updates
         as we progress. Your insights and feedback are valuable to us!
       </p>
+    </section>
+  );
+}
+
+function Domain() {
+  return (
+    <section id="domain" className="animated fadeIn">
+      <h2>Domain</h2>
+      <p>
+        This section provides domain details about our project based on our
+        literature survey.
+      </p>
+      <h3>Literature Survey</h3>
+      <p>
+        Our literature survey revealed that Sri Lanka is facing a USD price
+        hike, impacting several sectors still recovering from the pandemic.
+        While the IT Sector in Sri Lanka remains stable, there's increased
+        outsourcing from larger companies to South Asian countries, primarily
+        India. This presents both challenges and opportunities.
+      </p>
+      <h3>Research Gap</h3>
+      <p>
+        We identified a potential knowledge gap between Sri Lankan and Indian
+        students in IT fundamentals and programming skills.
+      </p>
+      <h3>Research Problem</h3>
+      <p>
+        The main research problem is how to bridge this knowledge gap and
+        produce high-quality, knowledgeable engineers in Sri Lanka who can
+        compete on a global scale.
+      </p>
+      <h3>Research Objectives</h3>
+      <ul>
+        <li>
+          Develop an interactive mobile application for gamified learning of
+          fundamental programming concepts through storytelling using native
+          language support.(Personalized Story Generation)
+        </li>
+        <li>
+          Implement a level-based IT fundamental knowledge evaluation system.
+        </li>
+        <li>
+          Create a customized kids assistance system to provide real-time
+          support.
+        </li>
+        <li>
+          Design a project-based programming system to teach practical
+          application of concepts.
+        </li>
+      </ul>
+      <h3>Methodology</h3>
+      <p>
+        Our methodology includes developing a comprehensive system with
+        components for personalized story generation, MCQ generation, hint
+        generation, and feedback generation. We're using a combination of mobile
+        app development and machine learning techniques.
+      </p>
+      <h3>Technologies Used</h3>
+      <ul>
+        <li>Flutter for cross-platform mobile development</li>
+        <li>Python for backend and machine learning</li>
+        <li>Libraries such as PyTorch, Transformers, PEFT</li>
+        <li>Language models like GPT-2 and LLAMA</li>
+        <li>Cloud technologies for hosting and scaling</li>
+      </ul>
     </section>
   );
 }
