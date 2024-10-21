@@ -1,6 +1,7 @@
 // App.js
 import React from "react";
 import "./App.css";
+import methodologyImage from "./images/methodology.png";
 
 function App() {
   return (
@@ -178,6 +179,11 @@ function Domain() {
         </li>
       </ul>
       <h3>Methodology</h3>
+      <img
+        src={methodologyImage}
+        alt="Descriptive Image Title"
+        style={{ width: "100%", height: "100%" }}
+      />
       <p style={{ textAlign: "justify" }}>
         Our methodology includes developing a comprehensive system with
         components for personalized story generation, MCQ generation, hint
@@ -185,8 +191,8 @@ function Domain() {
         app development and machine learning techniques.The Customized Kids
         Assisting System uses voice and image recognition to process children's
         queries in their native language. These queries are translated into
-        English and sent to a REST API for further analysis, leveraging custom
-        QA model and datasets for efficient processing.
+        English and sent to a REST API for further analysis, leveraging
+        knowledge based agent (KBA) and knowledge base for efficient processing.
       </p>
       <h3>Technologies Used</h3>
       <ul>
@@ -288,7 +294,7 @@ function Documents() {
         </li>
       </ul>
 
-      <h4>Individual Reports</h4>
+      <h3>Individual Reports</h3>
       <ul>
         <li>
           <a
@@ -326,6 +332,10 @@ function Documents() {
             IT20275006 - Lakpriya K.H.A.V
           </a>
         </li>
+      </ul>
+      <h4>Research Paper</h4>
+      <ul>
+        <li> Yet to be submitted, link will be updated soon.</li>
       </ul>
     </section>
   );
