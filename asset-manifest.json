@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Research-Project-Website/static/css/main.276c4ebf.css",
-    "main.js": "/Research-Project-Website/static/js/main.af71f525.js",
+    "main.css": "/Research-Project-Website/static/css/main.d6ddd3d0.css",
+    "main.js": "/Research-Project-Website/static/js/main.df9df03c.js",
     "index.html": "/Research-Project-Website/index.html",
-    "main.276c4ebf.css.map": "/Research-Project-Website/static/css/main.276c4ebf.css.map",
-    "main.af71f525.js.map": "/Research-Project-Website/static/js/main.af71f525.js.map"
+    "main.d6ddd3d0.css.map": "/Research-Project-Website/static/css/main.d6ddd3d0.css.map",
+    "main.df9df03c.js.map": "/Research-Project-Website/static/js/main.df9df03c.js.map"
   },
   "entrypoints": [
-    "static/css/main.276c4ebf.css",
-    "static/js/main.af71f525.js"
+    "static/css/main.d6ddd3d0.css",
+    "static/js/main.df9df03c.js"
   ]
 }
