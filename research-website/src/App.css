@@ -114,7 +114,7 @@ ul li::before {
   content: "✔";
   color: #6159ba;
   font-weight: bold;
-  margin-right: 10px;
+  margin-right: 10px; /* Space between check mark and description */
 }
 
 /* Footer Styles */
@@ -183,6 +183,17 @@ footer p {
 .milestone-content.expanded {
   max-height: 200px; /* Adjust based on content */
   padding: 10px 10px;
+}
+
+/* Adjustments for the milestone list */
+.milestone-content ul li {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Center items vertically */
+  margin: 0.5em 0;
+}
+
+.milestone-content ul li span.date {
+  margin-left: 20px; /* Space between check mark and date */
 }
 
 /* Responsive Design */

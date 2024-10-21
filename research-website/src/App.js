@@ -247,28 +247,28 @@ function Milestones() {
           "proposal",
           expandedMilestone,
           handleToggle,
-          [{ date: "2024-05-10", marks: "85%" }]
+          [{ date: "2024-02-21", marks: " Average" }]
         )}
         {renderMilestoneItem(
           "Progress Presentation 1",
           "progress1",
           expandedMilestone,
           handleToggle,
-          [{ date: "2024-06-15", marks: "88%" }]
+          [{ date: "2024-05-06", marks: " Average" }]
         )}
         {renderMilestoneItem(
           "Progress Presentation 2",
           "progress2",
           expandedMilestone,
           handleToggle,
-          [{ date: "2024-08-20", marks: "90%" }]
+          [{ date: "2024-09-10", marks: " Yet to be Released" }]
         )}
         {renderMilestoneItem(
           "Final Presentation & Viva",
           "final",
           expandedMilestone,
           handleToggle,
-          [{ date: "2024-10-05", marks: "92%" }]
+          [{ date: "2024-10-29", marks: " Yet to be Released" }]
         )}
       </ul>
     </section>
