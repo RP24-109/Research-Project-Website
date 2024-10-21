@@ -2,6 +2,7 @@
 import React from "react";
 import "./App.css";
 import methodologyImage from "./images/methodology.png";
+import { useState } from "react";
 
 function App() {
   return (
@@ -85,8 +86,8 @@ function Home() {
       </p>
       <h3 style={{ marginBottom: "20px" }}>Project Overview</h3>
       <p>
-        The <strong>Programming App for Kids</strong> aims to bridge the
-        knowledge gap between students in our country and those in India,
+        The <strong>Programming Learning App for Kids</strong> aims to bridge
+        the knowledge gap between students in our country and those in India,
         focusing on producing future engineers with strong programming
         foundations.
       </p>
@@ -230,18 +231,83 @@ function Domain() {
 }
 
 function Milestones() {
+  const [expandedMilestone, setExpandedMilestone] = useState(null);
+
+  const handleToggle = (milestone) => {
+    setExpandedMilestone(expandedMilestone === milestone ? null : milestone);
+  };
+
   return (
-    <section id="milestones">
+    <section id="milestones" className="animated fadeIn">
       <h2>Milestones</h2>
       <p>These are the key milestones we've achieved so far:</p>
-      <ul>
-        <li>Project Proposal</li>
-        <li>Progress Presentation 1</li>
-        <li>Progress Presentation 2</li>
-        <li>Final Assessment</li>
-        <li>Viva</li>
+      <ul className="milestone-list">
+        {renderMilestoneItem(
+          "Project Proposal",
+          "proposal",
+          expandedMilestone,
+          handleToggle,
+          [{ date: "2024-05-10", marks: "85%" }]
+        )}
+        {renderMilestoneItem(
+          "Progress Presentation 1",
+          "progress1",
+          expandedMilestone,
+          handleToggle,
+          [{ date: "2024-06-15", marks: "88%" }]
+        )}
+        {renderMilestoneItem(
+          "Progress Presentation 2",
+          "progress2",
+          expandedMilestone,
+          handleToggle,
+          [{ date: "2024-08-20", marks: "90%" }]
+        )}
+        {renderMilestoneItem(
+          "Final Presentation & Viva",
+          "final",
+          expandedMilestone,
+          handleToggle,
+          [{ date: "2024-10-05", marks: "92%" }]
+        )}
       </ul>
     </section>
+  );
+}
+
+function renderMilestoneItem(title, id, expandedMilestone, handleToggle, data) {
+  return (
+    <li className="milestone-item" key={id}>
+      <div className="milestone-header" onClick={() => handleToggle(id)}>
+        <span>{title}</span>
+        <i
+          className={`fas ${
+            expandedMilestone === id ? "fa-chevron-up" : "fa-chevron-down"
+          }`}
+          style={{ marginLeft: "10px" }} // Added margin for better spacing
+        ></i>
+      </div>
+      {expandedMilestone === id && (
+        <div className="milestone-details">
+          <table>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Marks</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.map((item, index) => (
+                <tr key={index}>
+                  <td>{item.date}</td>
+                  <td>{item.marks}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </li>
   );
 }
 
