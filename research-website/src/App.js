@@ -126,20 +126,34 @@ function Domain() {
         literature survey.
       </p>
       <h3>Literature Survey</h3>
-      <p>
+      <p style={{ textAlign: "justify" }}>
         Our literature survey revealed that Sri Lanka is facing a USD price
         hike, impacting several sectors still recovering from the pandemic.
-        While the IT Sector in Sri Lanka remains stable, there's increased
+        While the IT Sector in Sri Lanka remains stable [1], there's increased
         outsourcing from larger companies to South Asian countries, primarily
-        India. This presents both challenges and opportunities.
+        India. This presents both challenges and opportunities [2].Chiong and
+        Shuler's 2010 study found that young children are proficient with mobile
+        devices, using them primarily for gaming. Apps like "Martha Speaks" and
+        "Super Why" show potential for educational benefits, suggesting that
+        mobile devices can be a valuable tool for early childhood learning [3].
       </p>
       <h3>Research Gap</h3>
-      <p>
+      <p style={{ textAlign: "justify" }}>
         We identified a potential knowledge gap between Sri Lankan and Indian
-        students in IT fundamentals and programming skills.
+        students in IT fundamentals and programming skills.Simões Gomes et al.
+        studied the use of instructional games to teach programming to
+        11-13-year-olds. They found that young children struggle with graphic
+        symbols and repetition, highlighting a need for individualized and
+        engaging teaching tools with features like adaptive tests, language
+        support, narrative, and feedback systems [4]. Jayaratne's iterative
+        development approach used HTML, SQL, JavaScript, PHP, and Laravel to
+        create a software system with a MySQL database. While well-structured,
+        the forum component faced challenges with privacy, security, and
+        moderation, hindering its effectiveness for collaborative learning
+        between parents and children [5].
       </p>
       <h3>Research Problem</h3>
-      <p>
+      <p style={{ textAlign: "justify" }}>
         The main research problem is how to bridge this knowledge gap and
         produce high-quality, knowledgeable engineers in Sri Lanka who can
         compete on a global scale.
@@ -164,11 +178,15 @@ function Domain() {
         </li>
       </ul>
       <h3>Methodology</h3>
-      <p>
+      <p style={{ textAlign: "justify" }}>
         Our methodology includes developing a comprehensive system with
         components for personalized story generation, MCQ generation, hint
         generation, and feedback generation. We're using a combination of mobile
-        app development and machine learning techniques.
+        app development and machine learning techniques.The Customized Kids
+        Assisting System uses voice and image recognition to process children's
+        queries in their native language. These queries are translated into
+        English and sent to a REST API for further analysis, leveraging custom
+        QA model and datasets for efficient processing.
       </p>
       <h3>Technologies Used</h3>
       <ul>
@@ -176,8 +194,31 @@ function Domain() {
         <li>Python for backend and machine learning</li>
         <li>Libraries such as PyTorch, Transformers, PEFT</li>
         <li>Language models like GPT-2 and LLAMA</li>
-        <li>Cloud technologies for hosting and scaling</li>
+        <li>
+          GCP (Google Cloud Platform) for deploy backend and Github Pages for
+          hosting website
+        </li>
       </ul>
+      <h3>References</h3>
+      <p style={{ textAlign: "justify", fontSize: "15px" }}>
+        [1]. BBC News, "Sri Lanka is facing a USD price hike," [Online].
+        Available:https://www.bbc.com/news/world-61028138. <br />
+        [2].Times of India, "India's large pool of young talent contributing to
+        opensource projects," [Online]. Available:
+        https://timesofindia.indiatimes.com/india-fastest-growing-opensource-contributor-github/articleshow/81741376.cms?from=m
+        <br />
+        [3].C. Chiong and C. Shuler, Learning: Is There an App for That?
+        Investigations of Young Children’s Usage and Learning with Mobile
+        Devices and Apps. New York: The Joan Ganz Cooney Center at Sesame
+        Workshop, 2010 <br />
+        [4]. Simões Gomes, Tancicleide Carina, et al. “Exploring an Approach
+        Based on Digital Games for Teaching Programming Concepts to Young
+        Children.” International Journal of Child-Computer Interaction, vol. 16,
+        June 2018, pp. 77–84. <br />
+        [5].H.M.K.V. Jayaratne, "Web Based Application for Learning Sinhala
+        Language," Master's thesis, University of Colombo School of Computing,
+        2019. <br />
+      </p>
     </section>
   );
 }
