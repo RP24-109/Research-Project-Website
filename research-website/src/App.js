@@ -338,6 +338,15 @@ function Documents() {
         </li>
         <li>
           <a
+            href="https://drive.google.com/file/d/1u8fZCgWAdIDVt12LA6EJlYGoOvByFRZZ/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            IT21084522 - Dissanayake A.L
+          </a>
+        </li>
+        <li>
+          <a
             href="https://drive.google.com/file/d/1N8TshGobmErP4ZADwWVsWxM34hqZk-1r/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
@@ -382,7 +391,7 @@ function Documents() {
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/1uYzwhFR-Ri7GIBEstKdBv7ZNwdqtdZZR/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1_wHx6LTGSUrTYgrsfuxC6ZpmtiFtFf_5/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
